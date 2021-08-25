@@ -117,7 +117,7 @@ function App() {
 
       {/* <Footer/> */}
 
-      {/* <p class="copyright">&copy; 2020 Limitless Technologies - The Entrepreneurship Network</p> */}
+      {/* <p className="copyright">&copy; 2020 Limitless Technologies - The Entrepreneurship Network</p> */}
     </>
   );
 }
