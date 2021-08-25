@@ -104,7 +104,7 @@ function App() {
         </Carousel>
       </div>
 
-      {/* <div className="bgmedia">
+      <div className="bgmedia">
         <p>Power of TEN Consulting</p>
         <button>Explore here </button>
         <video muted="muted" className="video-background" id="vid" autoPlay>
@@ -113,9 +113,9 @@ function App() {
             type="video/mp4"
           />
         </video>
-      </div> */}
+      </div>
 
-      {/* <Footer/> */}
+      <Footer/>
 
       {/* <p className="copyright">&copy; 2020 Limitless Technologies - The Entrepreneurship Network</p> */}
     </>
