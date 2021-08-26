@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import App from './App';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/">
         <Switch>
             <Route exact path="/" component={App} />
             <Route path="/online" component={Onlinecourses} />

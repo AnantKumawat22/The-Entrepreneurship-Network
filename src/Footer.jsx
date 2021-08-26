@@ -45,7 +45,7 @@ function Footer() {
           </div>
           <div className="jointen">
             <input type="checkbox" name="" id="checkbox" />
-            <label for="checkbox">Join TEN's Discord Community</label>
+            <label htmlFor="checkbox">Join TEN's Discord Community</label>
           </div>
 
           <button type="submit" className="submit_btn">
