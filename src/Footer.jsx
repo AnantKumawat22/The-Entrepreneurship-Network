@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import "./CSS/Footer.css";
 
 function Footer() {
@@ -7,9 +6,9 @@ function Footer() {
     <>
       <div className="footer">
         <div className="foot_1">
-          <i className="fab fa-facebook-square fb"></i>
-          <i className="fab fa-twitter-square tw"></i>
-          <i className="fab fa-instagram ig"></i>
+          <a href="https://www.facebook.com/The-Entrepreneurship-Network-105155667888383/"><i className="fab fa-facebook-square fb"></i></a>
+          <a href="https://twitter.com/We_Are_TEN?s=08"><i className="fab fa-twitter-square tw"></i></a>
+          <a href="https://www.instagram.com/theentrepreneurshipnetwork/"><i className="fab fa-instagram ig"></i></a>
         </div>
         <div className="foot_2">
           <p>Subscribe to our newsletter</p>
@@ -55,7 +54,7 @@ function Footer() {
         <div className="foot_3">
           <ul>
             <li>
-              <a href="#">About Us</a>
+              <a href="/aboutus">About Us</a>
             </li>
             <li>
               <a href="#">FAQ's</a>

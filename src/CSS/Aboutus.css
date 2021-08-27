@@ -1,0 +1,29 @@
+.about_container{
+    background-color: rgb(206, 205, 205);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 20%), 0 0 3px 0 rgb(0 0 0 / 10%);
+    width: 80%;
+}
+
+.about_title{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Questrial', sans-serif;
+}
+
+.about_container h1{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.about_para{
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}

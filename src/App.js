@@ -41,7 +41,7 @@ function App() {
             <p className="container_quote_para">
               Learning Together From the Comfort of Your Home
             </p>
-            <button className="learn_more_btn">Learn More</button>
+            <button onClick={function(){window.location.href = '/aboutus'}} className="learn_more_btn">Learn More</button>
           </div>
           <div className="container_img">
             <img
@@ -117,7 +117,7 @@ function App() {
 
       <Footer/>
 
-      {/* <p className="copyright">&copy; 2020 Limitless Technologies - The Entrepreneurship Network</p> */}
+      <p className="copyright">&copy; 2020 Limitless Technologies - The Entrepreneurship Network</p>
     </>
   );
 }
