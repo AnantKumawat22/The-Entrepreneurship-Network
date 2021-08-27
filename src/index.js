@@ -11,9 +11,9 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route exact path="/The-Entrepreneurship-Network" component={App} />
-            <Route path="/online" component={Onlinecourses} />
-            <Route path="/hiring" component={Hiring} />
-            <Route path="/aboutus" component={Aboutus} />
+            <Route path="/The-Entrepreneurship-Network/online" component={Onlinecourses} />
+            <Route path="/The-Entrepreneurship-Network/hiring" component={Hiring} />
+            <Route path="/The-Entrepreneurship-Network/aboutus" component={Aboutus} />
         </Switch>
     </BrowserRouter>
 , document.getElementById('root'));

@@ -7,7 +7,8 @@ import Capture1 from "./Images/Capture1.PNG";
 import Capture2 from "./Images/Capture2.PNG";
 import Carousel from "react-elastic-carousel";
 import Slider from "./Slider";
-import Footer from './Footer';
+import Footer from "./Footer";
+import CarouselArray from "./Home/CarouselArray";
 
 const breakPoints = [
   { width: 1, SlidersToShow: 1 },
@@ -25,7 +26,6 @@ var desc3 =
   "Our expert teachers design and curate the curriculum using best practices and careful consideration of how people learn and retain information with the ongoing tech trends in the professional domain. We've debated every facet of our methodology, from the order in which to teach concepts, the analogies used to clarify them and how exercises  /should be structured to deliver the maximum educational punch.";
 
 function App() {
-
   return (
     <>
       <Navbar />
@@ -41,7 +41,14 @@ function App() {
             <p className="container_quote_para">
               Learning Together From the Comfort of Your Home
             </p>
-            <button onClick={function(){window.location.href = '/aboutus'}} className="learn_more_btn">Learn More</button>
+            <button
+              onClick={function () {
+                window.location.href = "/The-Entrepreneurship-Network/aboutus";
+              }}
+              className="learn_more_btn"
+            >
+              Learn More
+            </button>
           </div>
           <div className="container_img">
             <img
@@ -53,7 +60,11 @@ function App() {
       </div>
 
       <div className="parallax">
-        <div className="parallax_div"></div>
+        <div className="parallax_div">
+          <p>Welcome to</p>
+          <h3>THE NEXT BIG THING</h3>
+          <button>Join TEN Virtual Campus</button>
+        </div>
       </div>
 
       <div className="explore">
@@ -91,16 +102,23 @@ function App() {
 
       <div className="App">
         <Carousel breakPoints={breakPoints}>
-          <Slider>
-          <p>Working with TEN as a digital marketing intern has been a great experience. I learnt a lot of new stuff and worked on different tasks which helped me understand the marketing field better.</p>
-          </Slider>
-          <Slider>Two</Slider>
+         {CarouselArray.map((val)=>{
+            return(
+              <>
+              <Slider>
+                <p className="testimonials_desc">{val.testimonial_desc}</p>
+                <p className="testimonials_author">{val.testimonial_author}</p>
+              </Slider>
+              </>
+            );
+          })}
+          {/* <Slider>Two</Slider>
           <Slider>Three</Slider>
           <Slider>Four</Slider>
           <Slider>Five</Slider>
           <Slider>Six</Slider>
           <Slider>Seven</Slider>
-          <Slider>Eight</Slider>
+          <Slider>Eight</Slider> */}
         </Carousel>
       </div>
 
@@ -115,9 +133,11 @@ function App() {
         </video>
       </div>
 
-      <Footer/>
+      <Footer />
 
-      <p className="copyright">&copy; 2020 Limitless Technologies - The Entrepreneurship Network</p>
+      <p className="copyright">
+        &copy; 2020 Limitless Technologies - The Entrepreneurship Network
+      </p>
     </>
   );
 }

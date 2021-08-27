@@ -110,7 +110,7 @@ body {
   border-radius: 4px;
   letter-spacing: 0.5px;
   cursor: pointer;
-  transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .learn_more_btn:hover {
@@ -126,11 +126,58 @@ body {
 
 .parallax_div {
   width: 100%;
-  height: 500px;
+  font-family: "Questrial", sans-serif;
   margin: auto;
   background: url("https://static.wixstatic.com/media/dcca985fe5e148b1aea6744afd6af686.jpg/v1/fill/w_1363,h_460,al_c,q_85,usm_0.66_1.00_0.01/dcca985fe5e148b1aea6744afd6af686.webp")
     no-repeat center;
   background-size: cover;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax_div p{
+  text-align: center;
+  font-family: cursive;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(255, 230, 143);
+  width: 350px;
+  font-weight: 700;
+  margin: 5px auto;
+  text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+  color: rgb(255, 230, 143);
+  font-size: 60px;
+}
+
+.parallax_div h3{
+  text-align: center;
+  text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+  color: #e8b917;
+  margin: 15px auto;
+  font-family: "noticia text", serif;
+  font-size: 70px;
+}
+
+.parallax_div button{
+  margin: auto;
+  width: 270px;
+  cursor: pointer;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 17px;
+  background: repeat padding-box border-box 0% 0%/auto auto scroll linear-gradient(229deg
+, #ff4f4f 0%, rgba(29, 44, 243, 0) 100%), #1D2CF3;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.parallax_div button:hover{
+  background-color: rgb(255, 64, 64);
 }
 
 .explore {
@@ -291,6 +338,19 @@ body {
   height: 600px;
 }
 
+.kGXgiF{
+  flex-direction: column;
+}
+
+.testimonials_desc{
+  width: 97%;
+}
+
+.testimonials_author{
+  width: 96%;
+  text-align: right;
+}
+
 @media (max-width: 1370px) {
   .explore_1 {
     border-bottom: 7px solid white;
@@ -306,23 +366,6 @@ body {
   }
   .parallax_div {
     margin: 7px auto;
-  }
-}
-
-
-@media (max-width: 520px) {
-  
-  
-  .div_quote_1 {
-    font-size: 45px;
-  }
-  .explore_quote_para {
-    font-size: 30px;
-  }
-  .our_course_benifit {
-    margin: 20px auto;
-    font-size: 30px;
-    clip-path: polygon(0 0, 0% 100%, 98% 100%, 90% 50%, 98% 0);
   }
 }
 
@@ -346,5 +389,38 @@ body {
   .benefit_details_1 {
     width: 100%;
     margin-bottom: 30px;
+  }
+  .parallax_div p{
+    font-size: 50px;
+  }
+  .parallax_div h3{
+    font-size: 50px;
+  }
+  .testimonials_desc, .testimonials_author{
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 520px) {
+  .div_quote_1 {
+    font-size: 45px;
+  }
+  .explore_quote_para {
+    font-size: 30px;
+  }
+  .our_course_benifit {
+    margin: 20px auto;
+    font-size: 30px;
+    clip-path: polygon(0 0, 0% 100%, 98% 100%, 90% 50%, 98% 0);
+  }
+  .parallax_div p{
+    font-size: 40px;
+    width: 250px;
+    margin-top: 40px;
+  }
+  .parallax_div h3{
+    margin-top: 80px;
+    font-size: 34px;
   }
 }

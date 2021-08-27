@@ -26,8 +26,8 @@ function Navbar() {
                 </div>
                 <ul>
                     <li><a href="/The-Entrepreneurship-Network">Home</a></li>
-                    <li><a href="/online">Online Courses</a></li>
-                    <li><a href="/hiring">We're Hiring</a></li>
+                    <li><a href="/The-Entrepreneurship-Network/online">Online Courses</a></li>
+                    <li><a href="/The-Entrepreneurship-Network/hiring">We're Hiring</a></li>
                     <li><span>More</span></li>
                 </ul>
             </nav>
