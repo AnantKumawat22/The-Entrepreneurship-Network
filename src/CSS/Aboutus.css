@@ -29,3 +29,18 @@
     font-family: 'Questrial', sans-serif;
     text-align: center;
 }
+
+@media (max-width: 520px){
+    .about_title{
+        font-size: 32px;
+    }
+    .about_para{
+        font-size: 17px;
+    }
+    .about_container h1{
+        font-size: 28px;
+    }
+    .about_container{
+        width: 90%;
+    }
+}

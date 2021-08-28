@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './CSS/Home.css';
 import Navbar from './Navbar';
 
 function Onlinecourses() {

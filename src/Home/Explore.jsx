@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Explore(props) {
     return (
@@ -9,7 +10,7 @@ function Explore(props) {
                 </div>
                 <div className="explore_quote">
                     <p className="explore_quote_para">{props.title}</p>
-                    <button className="learn_more_btn">Learn More</button>
+                    <Link className="learn_more_btn" to={`/${props.click}`}>Learn More</Link>
                 </div>
             </div>
         </>

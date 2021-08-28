@@ -217,12 +217,9 @@
         color: white;
         font-size: 18px;
         border-radius: 4px;
-        transition: background-color 0.5s ease-in-out;
     }
     .navbar ul li a:hover{
-        border: 2px solid black;
-        color: #2a15dc;
-        background-color: white;
+        color: white;
     }
 }
 

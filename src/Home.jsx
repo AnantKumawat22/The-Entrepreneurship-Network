@@ -1,4 +1,5 @@
 import React from "react";
+import './CSS/Home.css';
 import Navbar from "./Navbar";
 import Explore from "./Home/Explore";
 import BenefitDetails from "./Home/BenefitDetails";
@@ -6,7 +7,7 @@ import Capture from "./Images/Capture.PNG";
 import Capture1 from "./Images/Capture1.PNG";
 import Capture2 from "./Images/Capture2.PNG";
 import Carousel from "react-elastic-carousel";
-import Slider from "./Slider";
+import Slider from "./Home/Slider";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import CarouselArray from "./Home/CarouselArray";
@@ -59,14 +60,20 @@ function Home() {
         <div className="parallax_div">
           <p>Welcome to</p>
           <h3>THE NEXT BIG THING</h3>
-          <button>Join TEN Virtual Campus</button>
+          <button
+            onClick={()=> {
+              window.open("https://discord.com/invite/A8zBusy", "_blank");
+            }}
+          >
+            Join TEN Virtual Campus
+          </button>
         </div>
       </div>
 
       <div className="explore">
         <Explore
           imgsrc="https://static.wixstatic.com/media/11062b_0f10d1a3bc8e4fb1ba089c42056efe9b~mv2.jpg/v1/fill/w_1138,h_590,al_c,q_85,usm_0.66_1.00_0.01/11062b_0f10d1a3bc8e4fb1ba089c42056efe9b~mv2.webp"
-          title="Entrepreneurship made fun"
+          title="Entrepreneurship made fun" click="entrepreneurship"
         />
 
         <Explore
