@@ -102,13 +102,17 @@ function App() {
 
       <div className="App">
         <Carousel breakPoints={breakPoints}>
-         {CarouselArray.map((val)=>{
-            return(
+          {CarouselArray.map((val) => {
+            return (
               <>
-              <Slider>
-                <p className="testimonials_desc">{val.testimonial_desc}</p>
-                <p className="testimonials_author">{val.testimonial_author}</p>
-              </Slider>
+                <Slider>
+                  <div className="slider_div">
+                    <p className="testimonials_desc">{val.testimonial_desc}</p>
+                    <p className="testimonials_author">
+                      {val.testimonial_author}
+                    </p>
+                  </div>
+                </Slider>
               </>
             );
           })}

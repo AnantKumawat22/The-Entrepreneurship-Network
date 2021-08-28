@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -338,7 +342,7 @@ body {
   height: 600px;
 }
 
-.kGXgiF{
+.slider_div{
   flex-direction: column;
 }
 
