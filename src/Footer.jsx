@@ -54,7 +54,7 @@ function Footer() {
         <div className="foot_3">
           <ul>
             <li>
-              <a href="/The-Entrepreneurship-Network/aboutus">About Us</a>
+              <a href="/#/aboutus">About Us</a>
             </li>
             <li>
               <a href="#">FAQ's</a>
