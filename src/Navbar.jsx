@@ -1,5 +1,6 @@
 import React from 'react';
 import "./CSS/Navbar.css";
+import {Link} from 'react-router-dom';
 
 function Navbar() {
     return (
@@ -25,9 +26,9 @@ function Navbar() {
                     </div>
                 </div>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/#/online">Online Courses</a></li>
-                    <li><a href="/#/hiring">We're Hiring</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/online">Online Courses</Link></li>
+                    <li><Link to="/hiring">We're Hiring</Link></li>
                     <li><span>More</span></li>
                 </ul>
             </nav>
