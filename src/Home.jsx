@@ -8,6 +8,7 @@ import Capture2 from "./Images/Capture2.PNG";
 import Carousel from "react-elastic-carousel";
 import Slider from "./Slider";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 import CarouselArray from "./Home/CarouselArray";
 
 const breakPoints = [
@@ -41,14 +42,9 @@ function Home() {
             <p className="container_quote_para">
               Learning Together From the Comfort of Your Home
             </p>
-            <button
-              onClick={function () {
-                window.location.href = "/#/aboutus";
-              }}
-              className="learn_more_btn"
-            >
-              Learn More
-            </button>
+            <Link to="/aboutus">
+              <button className="learn_more_btn">Learn More</button>
+            </Link>
           </div>
           <div className="container_img">
             <img

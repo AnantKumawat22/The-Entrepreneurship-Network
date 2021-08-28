@@ -16,8 +16,8 @@ function Navbar() {
                     </div>
                     <div className="head_btn">
                         <div className="head_btn_1">
-                            <button className="cart_btn"><i className="fas fa-shopping-cart"></i></button>
-                            <button className="login_btn"><i className="fas fa-user-circle"></i> <span>Log in</span></button>
+                            <Link to="/cart" className="cart_link"><i className="fas fa-shopping-cart"></i></Link>
+                            <Link className="login_link"><i className="fas fa-user-circle"></i> <span>Log in</span></Link>
                         </div>
                         <div className="search">
                             <input type="search" name="" id="search_inp" placeholder="Search Here" /> <i className="fas fa-search"></i>
