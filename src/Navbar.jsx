@@ -43,33 +43,34 @@ function Navbar() {
             </div>
           </div>
         </div>
-        <div className="nav_menu">
+
           <ul className="nav_ul">
             <li>
-              <Link to="/">Home</Link>
+              <Link class="li_a" to="/">Home</Link>
             </li>
             <li>
-              <Link to="/online">Online Courses</Link>
+              <Link class="li_a" to="/online">Online Courses</Link>
             </li>
             <li>
-              <Link to="/hiring">We're Hiring</Link>
+              <Link class="li_a" to="/hiring">We're Hiring</Link>
+            </li>
+            <li>
+              <DropdownButton id="dropdown-basic-button" title="More">
+                <Dropdown.Item href="#/action-1">Blog</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Certification</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Alumni Team</Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Forum</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Hackathon</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Membership Registration</Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Campus Ambassador Program</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Mentorship</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Social Media</Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Testimonials</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Contact Us</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Complaints</Dropdown.Item>
+              </DropdownButton>
             </li>
           </ul>
-          <DropdownButton id="dropdown-basic-button" title="More">
-            <Dropdown.Item href="#/action-1">Blog</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Certification</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Alumni Team</Dropdown.Item>
-            <Dropdown.Item href="#/action-1">Forum</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Hackathon</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Membership Registration</Dropdown.Item>
-            <Dropdown.Item href="#/action-1">Campus Ambassador Program</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Mentorship</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Social Media</Dropdown.Item>
-            <Dropdown.Item href="#/action-1">Testimonials</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Contact Us</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Complaints</Dropdown.Item>
-          </DropdownButton>
-        </div>
       </nav>
     </>
   );

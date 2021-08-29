@@ -149,20 +149,24 @@
   display: inline;
 }
 
-.nav_ul li a {
+.nav_ul li .li_a {
   color: black;
   padding: 7px 40px;
   border-right: 1px solid gray;
   text-decoration: none;
 }
 
-.nav_ul li a:hover {
+.nav_ul li .li_a:hover {
   color: red;
 }
 
 .nav_ul li span {
   padding: 7px 40px;
   border: none;
+}
+
+.dropdown{
+    display: contents;
 }
 
 #dropdown-basic-button{
@@ -197,7 +201,7 @@
 
 .dropdown-menu a:hover{
     background-color: #4267b2;
-    color: white;
+    color: white !important;
 }
 
 /* RESPONSIVE */
@@ -228,7 +232,6 @@
     }
     .head_btn {
         width: 95%;
-    
         padding: 5px 5px;
     }
     .head_name {
@@ -248,15 +251,16 @@
         margin-top: 20px;
         width: 95%;
     }
-    .nav_ul li a, .navbar ul li span {
-        padding: 14px 18px;
+    .nav_ul li .li_a{
+        padding: 14px 16px;
         border: none;
+        line-height: 70px;
         background-color: #4267b2;
         color: white;
         font-size: 18px;
         border-radius: 4px;
     }
-    .nav_ul li a:hover{
+    .nav_ul li .li_a:hover{
         color: white;
     }
     #dropdown-basic-button{
@@ -265,7 +269,7 @@
         color: white;
         font-size: 18px;
         border-radius: 4px;
-        padding: 14px 18px;
+        padding: 13px 18px;
         margin-top: 11px;
         margin-left: 5px;
     }
@@ -279,16 +283,13 @@
         flex-direction: column;
     }
 
-    #dropdown-basic-button{
-        position: relative;
-        bottom: 83px;
-        left: 194px;
-        width: 45%;
-    }
-
     .nav_ul{
         justify-content: left;
         line-height: 48px;
+    }
+
+    #dropdown-basic-button{
+        margin-top: 5px;
     }
 
     .nav_ul li {
@@ -296,18 +297,19 @@
         border-radius: 5px;
         text-align: center;
         margin: 5px 5px;
+        height:55px;
         width: 47%;
+    }
+    .nav_ul li .li_a{
+        line-height: 60px;
+    }
+    .dropdown-menu a{
+        font-size: 17px;
+        padding: 0px 20px;
     }
 }
 
-@media(max-width:385px){
-    #dropdown-basic-button{
-        position: relative;
-        bottom: 83px;
-        left: 182px;
-        width: 45%;
-    }
-}
+
 
 @media (max-width: 520px) {
     .search {
@@ -357,3 +359,4 @@
         height: 55px;
     }
 }
+
