@@ -252,12 +252,12 @@
         width: 95%;
     }
     .nav_ul li .li_a{
-        padding: 14px 16px;
+        padding: 14px 18px;
         border: none;
         line-height: 70px;
         background-color: #4267b2;
         color: white;
-        font-size: 18px;
+        font-size: 17px;
         border-radius: 4px;
     }
     .nav_ul li .li_a:hover{
@@ -265,9 +265,10 @@
     }
     #dropdown-basic-button{
         line-height: 22px;
+        width: 95%;
         background-color: #4267b2;
         color: white;
-        font-size: 18px;
+        font-size: 17px;
         border-radius: 4px;
         padding: 13px 18px;
         margin-top: 11px;
@@ -275,6 +276,9 @@
     }
     #dropdown-basic-button:hover{
         color: white;
+    }
+    .padd{
+        padding: 12px 50px !important;
     }
 }
 

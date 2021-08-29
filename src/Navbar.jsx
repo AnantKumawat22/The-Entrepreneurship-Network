@@ -46,7 +46,7 @@ function Navbar() {
 
           <ul className="nav_ul">
             <li>
-              <Link class="li_a" to="/">Home</Link>
+              <Link class="li_a padd" to="/">Home</Link>
             </li>
             <li>
               <Link class="li_a" to="/online">Online Courses</Link>

@@ -73,17 +73,17 @@ function Home() {
       <div className="explore">
         <Explore
           imgsrc="https://static.wixstatic.com/media/11062b_0f10d1a3bc8e4fb1ba089c42056efe9b~mv2.jpg/v1/fill/w_1138,h_590,al_c,q_85,usm_0.66_1.00_0.01/11062b_0f10d1a3bc8e4fb1ba089c42056efe9b~mv2.webp"
-          title="Entrepreneurship made fun" click="entrepreneurship"
+          title="Entrepreneurship made fun" click="entrepreneurship-1"
         />
 
         <Explore
           imgsrc="https://static.wixstatic.com/media/44a6c2_f9b99e49448943108aa1a3273b1c356b~mv2.jpg/v1/fill/w_850,h_563,al_c,q_85,usm_0.66_1.00_0.01/44a6c2_f9b99e49448943108aa1a3273b1c356b~mv2.webp"
-          title="Digital Marketing"
+          title="Digital Marketing" click="digital-marketing-1"
         />
 
         <Explore
           imgsrc="https://static.wixstatic.com/media/a3ac449c86364dd8999922949876d09e.jpg/v1/fill/w_850,h_555,al_c,q_85,usm_0.66_1.00_0.01/a3ac449c86364dd8999922949876d09e.webp"
-          title="Product Management like a pro"
+          title="Product Management like a pro" click="product-management-1"
         />
       </div>
 
