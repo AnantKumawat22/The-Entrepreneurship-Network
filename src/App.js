@@ -8,6 +8,7 @@ import Certification from './More/Certification';
 import Entrepreneurship from './Entrepreneurship';
 import DigitalMarketing from './DigitalMarketing';
 import ProductManagement from './ProductManagement';
+import Complaints from "./More/Complaints";
 
 function App(){
   return(
@@ -17,6 +18,7 @@ function App(){
     <Route path="/hiring" component={Hiring} />
     <Route path="/aboutus" component={Aboutus} />
     <Route path="/certification" component={Certification} />
+    <Route path="/complaints" component={Complaints} />
     <Route path="/entrepreneurship-1" component={Entrepreneurship} />
     <Route path="/digital-marketing-1" component={DigitalMarketing} />
     <Route path="/product-management-1" component={ProductManagement} />

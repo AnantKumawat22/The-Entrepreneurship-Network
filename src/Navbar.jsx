@@ -76,7 +76,7 @@ function Navbar() {
               <Dropdown.Item href="#/action-3">Social Media</Dropdown.Item>
               <Dropdown.Item href="#/action-1">Testimonials</Dropdown.Item>
               <Dropdown.Item href="#/action-2">Contact Us</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Complaints</Dropdown.Item>
+              <Dropdown.Item href="#/complaints">Complaints</Dropdown.Item>
             </DropdownButton>
           </li>
         </ul>

@@ -2,8 +2,6 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import "../CSS/Certification.css";
-import { DropdownButton, Dropdown, Item } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 function Certification() {
   return (
