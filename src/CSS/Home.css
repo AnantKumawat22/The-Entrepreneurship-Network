@@ -362,6 +362,17 @@ body {
   text-align: right;
 }
 
+.eRmJbc, .khvUfi{
+  height: 37px !important;
+  min-width: 30px !important;
+  line-height: 30px !important;
+  font-size: 20px !important;
+}
+
+.sc-kEjbQP{
+  z-index: -1;
+}
+
 @media (max-width: 1370px) {
   .explore_1 {
     border-bottom: 7px solid white;
