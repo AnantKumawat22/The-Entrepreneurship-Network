@@ -280,6 +280,10 @@
     .padd{
         padding: 12px 50px !important;
     }
+    .show{
+        margin: 2px 0px !important;
+
+    }
 }
 
 @media(max-width:540px){
@@ -308,8 +312,8 @@
         line-height: 60px;
     }
     .dropdown-menu a{
-        font-size: 17px;
-        padding: 0px 20px;
+        font-size: 16px;
+        padding: 0px 5px;
     }
 }
 

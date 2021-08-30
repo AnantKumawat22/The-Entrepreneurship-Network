@@ -4,7 +4,6 @@ import { DropdownButton, Dropdown, Item } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-
   return (
     <>
       <button className="chat_btn">
@@ -44,33 +43,43 @@ function Navbar() {
           </div>
         </div>
 
-          <ul className="nav_ul">
-            <li>
-              <Link class="li_a padd" to="/">Home</Link>
-            </li>
-            <li>
-              <Link class="li_a" to="/online">Online Courses</Link>
-            </li>
-            <li>
-              <Link class="li_a" to="/hiring">We're Hiring</Link>
-            </li>
-            <li>
-              <DropdownButton id="dropdown-basic-button" title="More">
-                <Dropdown.Item href="#/action-1">Blog</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Certification</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Alumni Team</Dropdown.Item>
-                <Dropdown.Item href="#/action-1">Forum</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Hackathon</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Membership Registration</Dropdown.Item>
-                <Dropdown.Item href="#/action-1">Campus Ambassador Program</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Mentorship</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Social Media</Dropdown.Item>
-                <Dropdown.Item href="#/action-1">Testimonials</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Contact Us</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Complaints</Dropdown.Item>
-              </DropdownButton>
-            </li>
-          </ul>
+        <ul className="nav_ul">
+          <li>
+            <Link class="li_a padd" to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link class="li_a" to="/online">
+              Online Courses
+            </Link>
+          </li>
+          <li>
+            <Link class="li_a" to="/hiring">
+              We're Hiring
+            </Link>
+          </li>
+          <li>
+            <DropdownButton id="dropdown-basic-button" title="More">
+              <Dropdown.Item href="#/action-1">Blog</Dropdown.Item>
+              <Dropdown.Item href="#/certification">Certification</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Alumni Team</Dropdown.Item>
+              <Dropdown.Item href="#/action-1">Forum</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Hackathon</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">
+                Membership Registration
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-1">
+                Campus Ambassador Program
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Mentorship</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Social Media</Dropdown.Item>
+              <Dropdown.Item href="#/action-1">Testimonials</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Contact Us</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Complaints</Dropdown.Item>
+            </DropdownButton>
+          </li>
+        </ul>
       </nav>
     </>
   );

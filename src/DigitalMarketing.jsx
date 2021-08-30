@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from './Footer';
-import './CSS/Entrepreneurship.css';
+import './CSS/DigitalMarketing.css';
 
 function DigitalMarketing() {
   return (

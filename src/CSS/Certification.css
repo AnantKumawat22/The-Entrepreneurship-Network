@@ -1,0 +1,144 @@
+.certification_div{
+    width: 90%;
+    height: auto;
+    background: url('https://static.wixstatic.com/media/e0136acb6a91480b87e8514652680cbf.jpg/v1/fill/w_1683,h_2560,al_c,q_90,usm_0.66_1.00_0.01/e0136acb6a91480b87e8514652680cbf.webp') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.certification_div_1{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.certification_div_1 h2{
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    color: rgb(240, 182, 58);
+    font-family: "noticia text", sans-serif;
+}
+
+.certification_div_1 p, .certification_div_1 span{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    width: 97%;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    font-family: "Questrial", sans-serif;
+}
+
+.option_disable{
+    display: none;
+}
+
+.certificate_subscribe{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    align-items: center;
+}
+
+.certificate_subscribe p{
+    color: rgb(235, 194, 62);
+}
+
+.certificate_subscribe_form{
+    display: flex;
+    width:48%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.certificate_subscribe_form input{
+    width: 44%;
+    outline: none;
+    border: none;
+    padding: 5px 8px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 20%), 0 0 3px 0 rgb(0 0 0 / 10%);
+    font-family: 'Questrial', sans-serif;
+    margin: 10px 5px;
+    height: 40px;
+}
+
+.certificate_subscribe_form input:focus{
+    background-color: rgb(235, 194, 62);
+    border: 1px solid rgb(235, 194, 62);
+    color: rgb(0, 0, 0);
+}
+
+#select_internship_track{
+    width: 96%;
+    outline: none;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 20%), 0 0 3px 0 rgb(0 0 0 / 10%);
+    border: none;
+    font-size: 18px;
+    padding-left: 5px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 56px;
+}
+
+.subscribe_btn{
+    width: 97%;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 20%), 0 0 3px 0 rgb(0 0 0 / 10%);
+    outline: none;
+    letter-spacing: 1px;
+    background-color: #4267b2;
+}
+
+.subscribe_btn:hover{
+    background-color: #2751a5;
+}
+
+@media(max-width:1040px){
+    .certificate_subscribe_form input{
+        width:95%;
+        margin-top: 5px;
+    }
+    #select_internship_track{
+        margin-bottom: 10px;
+        width: 97%;
+    }
+    .certificate_subscribe_form{
+        width: 96%;
+    }
+    .qrscan_img{
+        width:40%;
+        height:40%;
+    }
+}
+
+@media(max-width:520px){
+    .certification_div_1 h2{
+        font-size: 30px;
+    }
+    .certification_div_1 p{
+        font-size: 17px;
+    }
+    .qrscan_img{
+        width:50%;
+        height: 50%;
+    }
+    .certificate_subscribe_form input, #select_internship_track{
+        font-size: 16px;
+    }
+}
