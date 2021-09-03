@@ -362,14 +362,7 @@ body {
   text-align: right;
 }
 
-.eRmJbc, .khvUfi{
-  height: 37px !important;
-  min-width: 30px !important;
-  line-height: 30px !important;
-  font-size: 20px !important;
-}
-
-.sc-kEjbQP{
+.VxYRQ{
   z-index: -1;
 }
 
@@ -423,6 +416,14 @@ body {
   }
 }
 
+@media (max-width: 710px){
+  .bgmedia p{
+    font-size: 40px;
+  }
+  .bgmedia button{
+    font-size: 18px;
+  }
+}
 
 @media (max-width: 520px) {
   .div_quote_1 {
