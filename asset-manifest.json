@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/The-Entrepreneurship-Network/static/css/main.6ec422f4.chunk.css",
+    "main.css": "/The-Entrepreneurship-Network/static/css/main.effd5122.chunk.css",
     "main.js": "/The-Entrepreneurship-Network/static/js/main.cc2c493b.chunk.js",
     "main.js.map": "/The-Entrepreneurship-Network/static/js/main.cc2c493b.chunk.js.map",
     "runtime-main.js": "/The-Entrepreneurship-Network/static/js/runtime-main.328a8966.js",
@@ -8,7 +8,7 @@
     "static/js/2.c4be83b0.chunk.js": "/The-Entrepreneurship-Network/static/js/2.c4be83b0.chunk.js",
     "static/js/2.c4be83b0.chunk.js.map": "/The-Entrepreneurship-Network/static/js/2.c4be83b0.chunk.js.map",
     "index.html": "/The-Entrepreneurship-Network/index.html",
-    "static/css/main.6ec422f4.chunk.css.map": "/The-Entrepreneurship-Network/static/css/main.6ec422f4.chunk.css.map",
+    "static/css/main.effd5122.chunk.css.map": "/The-Entrepreneurship-Network/static/css/main.effd5122.chunk.css.map",
     "static/js/2.c4be83b0.chunk.js.LICENSE.txt": "/The-Entrepreneurship-Network/static/js/2.c4be83b0.chunk.js.LICENSE.txt",
     "static/media/Capture.573d465e.PNG": "/The-Entrepreneurship-Network/static/media/Capture.573d465e.PNG",
     "static/media/Capture1.aa56b4f7.PNG": "/The-Entrepreneurship-Network/static/media/Capture1.aa56b4f7.PNG",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.328a8966.js",
     "static/js/2.c4be83b0.chunk.js",
-    "static/css/main.6ec422f4.chunk.css",
+    "static/css/main.effd5122.chunk.css",
     "static/js/main.cc2c493b.chunk.js"
   ]
 }
